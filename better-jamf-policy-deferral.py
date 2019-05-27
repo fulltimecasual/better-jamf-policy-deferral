@@ -35,7 +35,7 @@ from SystemConfiguration import SCDynamicStoreCopyConsoleUser
 # Deferment LaunchDaemon Config
 # LaunchDaemon label: reverse-domain-formatted organization identifier.
 # Do not include '.plist'!
-DEFAULT_LD_LABEL = "com.contoso.deferred-policy"
+DEFAULT_LD_LABEL = "com.swin.deferred-policy"
 # Trigger: What custom trigger should be called to actually kick off the policy?
 DEFAULT_LD_JAMF_TRIGGER = "trigger_for_deferred_policy"
 
@@ -50,7 +50,7 @@ JAMFHELPER = ("/Library/Application Support/JAMF/bin/jamfHelper.app/Contents"
               "/MacOS/jamfHelper")
 
 # Prompt GUI Config
-GUI_WINDOW_TITLE = "IT Notification"
+GUI_WINDOW_TITLE = "Swinburne University"
 GUI_HEADING = "Software Updates are ready to be installed."
 GUI_ICON = ("/System/Library/CoreServices/CoreTypes.bundle/Contents/Resources"
             "/AlertCautionIcon.icns")
